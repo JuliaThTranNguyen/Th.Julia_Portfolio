@@ -1,6 +1,6 @@
-# Th.Julia - Thuy Hien Tran Nguyen Portfolio
+# [Th.Julia - Thuy Hien Tran Nguyen Portfolio](https://th-julia-portfolio.vercel.app/)
 -------------------------------------------------------------------------------------------------
-## [LIVE DEMO]()
+## [LIVE DEMO](https://th-julia-portfolio.vercel.app/)
 
 ## IDE I use for coding :bulb:
 - VsCode
