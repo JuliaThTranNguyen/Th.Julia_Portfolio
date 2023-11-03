@@ -10,7 +10,7 @@
 
   @include mobile {
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     flex-direction: column;
   }
 
@@ -22,10 +22,10 @@
     animation: fadeIn 1s ease-in forwards; /* Apply fadeIn animation to textContainer */
 
     @include mobile {
-      gap: 20px;
+      gap: 6px;
       text-align: center;
       align-items: center;
-      margin-top: 70px;
+      margin-top: 0px;
     }
 
     h1 {
@@ -33,7 +33,7 @@
       line-height: 88px;
 
       @include mobile {
-        font-size: 36px;
+        font-size: 28px;
       }
     }
 
@@ -47,7 +47,8 @@
     position: relative;
 
     @include mobile {
-      padding: 50px;
+      padding-left: 50px;
+      padding-right: 50px;
       width: 100%;
     }
 
@@ -72,7 +73,7 @@
         border-radius: 5px;
 
         @include mobile {
-          padding: 10px;
+          padding: 0px;
         }
       }
 
@@ -83,7 +84,7 @@
         cursor: pointer;
         font-weight: 500;
         @include mobile {
-          padding: 10px;
+          padding: 0px;
         }
       }
     }
