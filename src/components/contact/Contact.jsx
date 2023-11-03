@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
@@ -23,19 +23,8 @@ const Contact = () => {
   const formRef = useRef();
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
-  const [hideItems, setHideItems] = useState(false); // State to hide specific items
+
   const isInView = useInView(ref, { margin: "-100px" });
-
-  // Use useEffect to hide specific items after 5 seconds on mobile screen
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setHideItems(true);
-    }, 5000); // 5000 milliseconds (5 seconds)
-
-    return () => {
-      clearTimeout(timeout);
-    };
-  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -49,7 +38,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          setSuccess(true);
+          setSuccess(true)
         },
         (error) => {
           setError(true);
@@ -65,24 +54,20 @@ const Contact = () => {
       initial="initial"
       whileInView="animate"
     >
-      <motion.div className={`textContainer ${hideItems ? "hideItems" : ""}`} variants={variants}>
+      <motion.div className="textContainer" variants={variants}>
         <motion.h1 variants={variants}>Let’s work together</motion.h1>
-        {!hideItems && (
-          <>
-            <motion.div className="item" variants={variants}>
-              <h2>Email address</h2>
-              <span>hello@mail.com</span>
-            </motion.div>
-            <motion.div className="item" variants={variants}>
-              <h2>Message</h2>
-              <span>Hello street New York</span>
-            </motion.div>
-            <motion.div className="item" variants={variants}>
-              <h2>Phone</h2>
-              <span>+1 234 5678</span>
-            </motion.div>
-          </>
-        )}
+        <motion.div className="item" variants={variants}>
+          <h2>Email address</h2>
+          <span>hello@mail.com</span>
+        </motion.div>
+        <motion.div className="item" variants={variants}>
+          <h2>Message</h2>
+          <span>Hello street New York</span>
+        </motion.div>
+        <motion.div className="item" variants={variants}>
+          <h2>Phone</h2>
+          <span>+1 234 5678</span>
+        </motion.div>
       </motion.div>
       <div className="formContainer">
         <motion.div
