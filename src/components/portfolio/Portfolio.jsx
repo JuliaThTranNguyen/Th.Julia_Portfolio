@@ -9,7 +9,7 @@ const items = [
     img: "https://user-images.githubusercontent.com/49017322/232626283-ec6a60c2-cfeb-443d-ae73-1e2cf4e22fe6.png",
     desc: "This is a simple HTML webpage for self-introduction.",
     demo:"https://fs16-1-basic-html-bice.vercel.app/",
-    tech:"HTML"
+    tech:"Technologies: HTML"
   },
   {
     id: 1,
@@ -17,7 +17,7 @@ const items = [
     img: "https://user-images.githubusercontent.com/49017322/221565215-7fb2c69a-197d-4d26-8e1b-7321613de876.png",
     desc: "This is a very simple & responsive weather forecast application written in React.",
     demo:"https://weather-forecast-eight-woad.vercel.app/",
-    tech:"ReactJs, REST APIs"
+    tech:"Technologies: ReactJs, REST APIs"
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const items = [
     img: "https://user-images.githubusercontent.com/49017322/279810682-5af4b437-50f4-4c64-a161-b7c8008385a7.png",
     desc: "This is a simple UI design for an e-commerce app.",
     demo:"https://fs16-6-frontend-project-gamma.vercel.app/",
-    tech:"Typescript, Redux Query, Material UI, REST APIs"
+    tech:"Technologies: Typescript, Redux Query, Material UI, REST APIs"
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const items = [
     img: "https://user-images.githubusercontent.com/49017322/279810649-8d6b602b-82f1-42f5-8212-e9f6512ac676.png",
     desc: "This is a copy of the UI design for the Maido website.",
     demo:"https://fs16-2-responsive-design.vercel.app/",
-    tech:"Typescript, SCSS, REST APIs"
+    tech:"Technologies: Typescript, SCSS, REST APIs"
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const items = [
     img: "https://user-images.githubusercontent.com/49017322/279810742-108a2dba-8a53-4b37-9f42-0d23eb294b32.png",
     desc: "This is an Admin Panel for a warehouse management application for an e-commerce service. This application written in NextJs",
     demo:"https://admin-panel-julia.vercel.app/login",
-    tech:"Next.Js, MongoDB, Google Cloud Console, Amazon S3, TailwindCSS"
+    tech:"Technologies: Next.Js, MongoDB, Google Cloud Console, Amazon S3, TailwindCSS"
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const items = [
     img: "https://user-images.githubusercontent.com/49017322/279810762-2d74d466-6a2c-45a0-ba49-5862a0a625a0.png",
     desc: "This is an e-commerce app, which serves as the frontend application for the admin panel mentioned above, designed for an e-commerce service. This application is written in Next.js.",
     demo:"https://e-commerce-julia.vercel.app/",
-    tech:"Next.Js, MongoDB, Google Cloud Console, Amazon S3, TailwindCSS"
+    tech:"Technologies: Next.Js, MongoDB, Google Cloud Console, Amazon S3, TailwindCSS"
   },
 ];
 
@@ -74,7 +74,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <p>Technologies: {item.tech}</p>
+            <p>{item.tech}</p>
             <a href={item.demo} target="_blank" rel="noopener noreferrer" className="clickable">
               <button>See Demo</button>
             </a>
