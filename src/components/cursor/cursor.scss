@@ -1,14 +1,16 @@
 @import "../../app.scss";
 
-.cursor{
-  width: 50px;
-  height: 50px;
+.cursor {
+  width: 30px; /* Adjust the cursor size for smaller screens */
+  height: 30px; /* Adjust the cursor size for smaller screens */
   border-radius: 50%;
   border: 1px solid white;
   position: fixed;
   z-index: 999;
+  pointer-events: none; /* Make sure the cursor doesn't interfere with interactions */
+  display: none; /* Initially hide the cursor on all screens */
 
-  @include mobile{
-    display: none;
+  @include mobile {
+    display: block; /* Display the cursor on small screens */
   }
 }

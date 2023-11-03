@@ -56,25 +56,25 @@ const Single = ({ item }) => {
 
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
-  const handleButtonClick = () => {
-    window.open(item.demo, "_blank"); // Open the demo link in a new tab/window
-  };
-
   return (
     <section>
-    <div className="container">
-      <div className="wrapper">
-        <div className="imageContainer" ref={ref}>
-          <img src={item.img} alt="" />
+      <div className="container">
+        <div className="wrapper">
+          <a href={item.demo} target="_blank" rel="noopener noreferrer" className="clickable">
+            <div className="imageContainer" ref={ref}>
+              <img src={item.img} alt="" />
+            </div>
+          </a>
+          <motion.div className="textContainer" style={{ y }}>
+            <h2>{item.title}</h2>
+            <p>{item.desc}</p>
+            <a href={item.demo} target="_blank" rel="noopener noreferrer" className="clickable">
+              <button>See Demo</button>
+            </a>
+          </motion.div>
         </div>
-        <motion.div className="textContainer" style={{ y }}>
-          <h2>{item.title}</h2>
-          <p>{item.desc}</p>
-          <button onClick={handleButtonClick}>See Demo</button>
-        </motion.div>
       </div>
-    </div>
-  </section>
+    </section>
   );
 };
 

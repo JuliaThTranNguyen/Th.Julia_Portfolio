@@ -1,4 +1,5 @@
 @import "../../app.scss";
+
 .services {
   background: linear-gradient(180deg, #0c0c1d, #111132);
   height: 100%;
@@ -21,80 +22,86 @@
 
     p {
       font-weight: 200;
-      font-size: 20px;
+      font-size: 3vw; /* Responsive font size */
       color: gray;
       text-align: right;
+
+      @include mobile {
+        font-size: 4vw; /* Adjust for smaller screens */
+      }
     }
 
+          // For smaller screens, adjust padding and height to fit content
+          @include mobile {
+            padding: 2vw; /* Adjust padding for smaller screens */
+            height: auto; /* Allow boxes to expand based on content */
+          }
+
     hr {
-      width: 500px;
+      width: 50vw; /* Responsive width */
       border: none;
       border-top: 0.5px solid gray;
 
       @include mobile {
-        width: 300px;
+        width: 80vw; /* Adjust for smaller screens */
       }
     }
   }
+
   .titleContainer {
     flex: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    @include mobile {
-      width: 100%;
-    }
-
     .title {
       display: flex;
       align-items: center;
-      gap: 50px;
+      gap: 2vw; /* Responsive gap */
 
       @include mobile {
         flex-direction: column;
         text-align: center;
-        gap: 20px;
+        gap: 1vw; /* Adjust for smaller screens */
       }
 
       img {
-        width: 300px;
-        height: 100px;
+        width: 20vw; /* Responsive width */
+        height: 10vw; /* Responsive height */
         border-radius: 50px;
         object-fit: cover;
 
         @include mobile {
-          width: 200px;
-          height: 50px;
+          width: 40vw; /* Adjust for smaller screens */
+          height: 20vw; /* Adjust for smaller screens */
         }
       }
 
       h1 {
-        font-size: 96px;
+        font-size: 6vw; /* Responsive font size */
         font-weight: 100;
 
         @include mobile {
-          font-size: 36px;
+          font-size: 8vw; /* Adjust for smaller screens */
         }
       }
 
       button {
-        width: 300px;
-        height: 100px;
-        border-radius: 50px;
         background-color: orange;
         border: none;
-        font-size: 24px;
+        border-radius: 2vw; /* Responsive border radius */
+        padding: 2vw 4vw; /* Responsive padding */
         cursor: pointer;
+        font-size: 3vw; /* Responsive font size */
 
         @include mobile {
-          font-size: 16px;
-          width: 10px;
-          height: 50px;
+          font-size: 4vw; /* Adjust for smaller screens */
+          padding: 3vw 6vw; /* Adjust for smaller screens */
         }
       }
     }
   }
+
   .listContainer {
     flex: 2;
     display: flex;
