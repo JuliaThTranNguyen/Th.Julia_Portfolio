@@ -31,7 +31,7 @@ const sliderVariants = {
     x: "-220%",
     transition: {
       repeat: Infinity,
-      repeatType:"mirror",
+      repeatType: "mirror",
       duration: 20,
     },
   },
@@ -47,15 +47,26 @@ const Avatar = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>Th.Julia - Hien Thuy Tran Nguyen</motion.h2>
-          <motion.h1 variants={textVariants}>
-          A full-stack web developer
-          </motion.h1>
+          <motion.h2 variants={textVariants}>
+            Th.Julia - Hien Thuy Tran Nguyen
+          </motion.h2>
+          <div className="textRow"> {/* Added flex container */}
+            <motion.h1 variants={textVariants}>
+              A full-stack web developer
+            </motion.h1>
+            <motion.a
+              href="https://resume.io/r/FEj8HCF9c"
+              className="clickable"
+            >
+              <button className="CVLink">View My CV</button>
+            </motion.a>
+          </div>
           <motion.img
             variants={textVariants}
             animate="scrollButton"
             src="/scroll.png"
             alt=""
+            className="smallImage"
           />
         </motion.div>
       </div>
