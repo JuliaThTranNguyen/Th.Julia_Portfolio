@@ -1,6 +1,6 @@
 # Th.Julia - Thuy Hien Tran Nguyen Portfolio
 -------------------------------------------------------------------------------------------------
-## [LIVE DEMO]()
+## [LIVE DEMO](https://th-julia-portfolio.vercel.app/)
 
 ## IDE I use for coding :bulb:
 - VsCode
@@ -24,6 +24,9 @@
 ![Screenshot from 2023-11-01 23-45-23](https://github.com/JuliaThTranNguyen/Th.Julia_Portfolio/assets/49017322/5af4b437-50f4-4c64-a161-b7c8008385a7)
 
 ![Screenshot from 2023-11-01 23-46-19](https://github.com/JuliaThTranNguyen/Th.Julia_Portfolio/assets/49017322/108a2dba-8a53-4b37-9f42-0d23eb294b32)
+
+![image](https://github.com/JuliaThTranNguyen/Th.Julia_Portfolio/assets/49017322/3bf7fbb1-1cfc-4000-b1ae-eb35e4c67358)
+
 
 ![Screenshot from 2023-11-01 23-47-32](https://github.com/JuliaThTranNguyen/Th.Julia_Portfolio/assets/49017322/2d74d466-6a2c-45a0-ba49-5862a0a625a0)
 
