@@ -10,7 +10,7 @@
     max-width: 1366px;
     height: 110%;
     margin: auto;
-
+   
     .textContainer {
       width: 50%;
       height: 100%;
@@ -19,7 +19,7 @@
       justify-content: center;
       gap: 5px;
       margin-left: 10px;
-
+      
       @include mobile {
         height: 50%;
         width: 100%;
@@ -112,13 +112,12 @@
 
     img {
       width: 95%;
-      height: 89%;
+      height: 92%;
       object-fit: cover;
       border-radius: 40%; /* Add this line to round the image */
-      transform: scale(0.7); /* Scale the image to 2x its size */
-      transform-origin: top right;
-      margin-right: 5px;
-      margin-top: 125px;
+      transform: scale(0.6); /* Scale the image to 2x its size */
+      transform-origin: top left;
+      margin-top: 135px;
 
       @include mobile {
         width: 73%;
@@ -130,6 +129,8 @@
         align-items: center;
         margin-top: 60px;
       }
+
+      
     }
   }
 
