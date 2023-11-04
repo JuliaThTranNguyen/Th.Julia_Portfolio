@@ -41,7 +41,7 @@ const items = [
     img: "https://user-images.githubusercontent.com/49017322/279810742-108a2dba-8a53-4b37-9f42-0d23eb294b32.png",
     desc: "This is an Admin Panel for a warehouse management application for an e-commerce service. This application written in NextJs",
     demo:"https://admin-panel-julia.vercel.app/login",
-    tech:"Technologies: Next.Js, MongoDB, Google Cloud Console, Amazon S3, TailwindCSS"
+    tech:"Technologies: Next.Js, MongoDB & JWT tokens, Google Cloud Console, Amazon S3, TailwindCSS"
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const items = [
     img: "https://user-images.githubusercontent.com/49017322/279810762-2d74d466-6a2c-45a0-ba49-5862a0a625a0.png",
     desc: "This is an e-commerce app, which serves as the frontend application for the admin panel mentioned above, designed for an e-commerce service. This application is written in Next.js.",
     demo:"https://e-commerce-julia.vercel.app/",
-    tech:"Technologies: Next.Js, MongoDB, Google Cloud Console, Amazon S3, TailwindCSS"
+    tech:"Technologies: Next.Js, MongoDB & JWT tokens, Google Cloud Console, Amazon S3, TailwindCSS, Stripe Payment"
   },
 ];
 
