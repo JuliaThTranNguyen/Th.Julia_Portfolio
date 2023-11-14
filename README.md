@@ -30,3 +30,4 @@
 
 ![Screenshot from 2023-11-01 23-47-32](https://github.com/JuliaThTranNguyen/Th.Julia_Portfolio/assets/49017322/2d74d466-6a2c-45a0-ba49-5862a0a625a0)
 
+![image](https://github.com/JuliaThTranNguyen/Th.Julia_Portfolio/assets/49017322/ae9f431b-38c2-4e3b-9ea3-7943886c08fa)

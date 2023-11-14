@@ -9,7 +9,7 @@ const items = [
     img: "https://user-images.githubusercontent.com/49017322/232626283-ec6a60c2-cfeb-443d-ae73-1e2cf4e22fe6.png",
     desc: "This is a simple HTML webpage for self-introduction.",
     demo:"https://fs16-1-basic-html-bice.vercel.app/",
-    tech:"Technologies: HTML, Vercel"
+    tech:"Technologies: HTML, Formsubmit, Vercel"
   },
   {
     id: 1,
@@ -37,19 +37,19 @@ const items = [
   },
   {
     id: 4,
-    title: "Warehouse management system - BE system",
+    title: "Warehouse management system ",
     img: "https://user-images.githubusercontent.com/49017322/279810742-108a2dba-8a53-4b37-9f42-0d23eb294b32.png",
-    desc: "This is an Admin Panel for a warehouse management application for an e-commerce service. This application written in NextJs",
+    desc: "This is an Admin Panel for a warehouse management application.",
     demo:"https://admin-panel-julia.vercel.app/login",
-    tech:"Technologies: Next.Js, MongoDB & JWT tokens, Google Cloud Console, Amazon S3, TailwindCSS, Vercel"
+    tech:"Technologies: Next.Js, MongoDB & JWT tokens, NextAuth, Google Cloud Console, Amazon S3, TailwindCSS, Vercel"
   },
   {
     id: 5,
-    title: "E-commercial App - FE system",
+    title: "E-commercial App",
     img: "https://user-images.githubusercontent.com/49017322/279810762-2d74d466-6a2c-45a0-ba49-5862a0a625a0.png",
-    desc: "This is an e-commerce app, which serves as the frontend application for the admin panel mentioned above, designed for an e-commerce service. This application is written in Next.js.",
+    desc: "This is an e-commerce app, which serves as the frontend application for the admin panel mentioned above.",
     demo:"https://e-commerce-julia.vercel.app/",
-    tech:"Technologies: Next.Js, MongoDB & JWT tokens, Google Cloud Console, Amazon S3, TailwindCSS, Stripe Payment, Vercel"
+    tech:"Technologies: Next.Js, Google Cloud Console, TailwindCSS, Stripe Payment, Vercel"
   },
   {
     id: 6,
@@ -57,7 +57,15 @@ const items = [
     img: "https://user-images.githubusercontent.com/49017322/280490781-3bf7fbb1-1cfc-4000-b1ae-eb35e4c67358.png",
     desc: "This is a simple personal portfolio.",
     demo:"https://th-julia-portfolio.vercel.app/",
-    tech:"Technologies: ReactJs, Vite, Vercel"
+    tech:"Technologies: ReactJs, Vite, EmailJS, Vercel"
+  },
+  {
+    id: 7,
+    title: "Travel Agency",
+    img: "https://user-images.githubusercontent.com/49017322/282851205-ae9f431b-38c2-4e3b-9ea3-7943886c08fa.png",
+    desc: "This is a simple - UI/UX design for a travel agency website.",
+    demo:"https://travel-agency-fawn.vercel.app/",
+    tech:"Technologies: ReactJs, NextJs, Tailwinds CSS, Vercel"
   },
 ];
 
