@@ -57,15 +57,23 @@ const items = [
     img: "https://user-images.githubusercontent.com/49017322/280490781-3bf7fbb1-1cfc-4000-b1ae-eb35e4c67358.png",
     desc: "This is a simple personal portfolio.",
     demo:"https://th-julia-portfolio.vercel.app/",
-    tech:"Technologies: ReactJs, Vite, EmailJS, Vercel"
+    tech:"Technologies: ReactJs, ViteJs, EmailJS, Vercel"
   },
   {
     id: 7,
     title: "Travel Agency",
     img: "https://user-images.githubusercontent.com/49017322/282851205-ae9f431b-38c2-4e3b-9ea3-7943886c08fa.png",
-    desc: "This is a simple - UI/UX design for a travel agency website.",
+    desc: "This is a simple UI/UX design for a travel agency website.",
     demo:"https://travel-agency-fawn.vercel.app/",
-    tech:"Technologies: ReactJs, NextJs, Tailwinds CSS, Vercel"
+    tech:"Technologies: Typescript, NextJs, Tailwinds CSS, Vercel"
+  },
+  {
+    id: 8,
+    title: "Shobie Online Shopping",
+    img: "https://user-images.githubusercontent.com/49017322/284315779-f2aa96ee-528b-4cde-a37e-4d771183c4f9.png",
+    desc: "This is a simple UI/UX design for an online shopping website.",
+    demo:"https://travel-agency-fawn.vercel.app/",
+    tech:"Technologies: Typescript, NextJs, Tailwinds CSS, Vercel"
   },
 ];
 
