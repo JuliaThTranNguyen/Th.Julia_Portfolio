@@ -72,7 +72,7 @@ const items = [
     title: "Shobie Online Shopping",
     img: "https://user-images.githubusercontent.com/49017322/284315779-f2aa96ee-528b-4cde-a37e-4d771183c4f9.png",
     desc: "This is a simple UI/UX design for an online shopping website.",
-    demo:"https://travel-agency-fawn.vercel.app/",
+    demo:"https://ux-ui-shobie.vercel.app/",
     tech:"Technologies: Typescript, NextJs, Tailwinds CSS, Vercel"
   },
 ];
