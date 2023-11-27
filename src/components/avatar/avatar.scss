@@ -10,6 +10,7 @@
     max-width: 1366px;
     height: 110%;
     margin: auto;
+    margin-left: 10px;
    
     .textContainer {
       width: 50%;
@@ -114,10 +115,12 @@
       width: 95%;
       height: 92%;
       object-fit: cover;
-      border-radius: 40%; /* Add this line to round the image */
+      border-radius: 45%; /* Add this line to round the image */
       transform: scale(0.6); /* Scale the image to 2x its size */
       transform-origin: top left;
+      margin-left: 45px;
       margin-top: 135px;
+      align-items: end;
 
       @include mobile {
         width: 73%;
