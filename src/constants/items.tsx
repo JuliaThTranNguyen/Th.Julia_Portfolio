@@ -71,5 +71,13 @@ export const items = [
       demo:"https://ux-ui-shobie.vercel.app/",
       tech:"Technologies: Typescript, NextJs, Tailwinds CSS, Vercel"
     },
+    {
+      id: 9,
+      title: "JuJu Note App",
+      img: "https://github.com/JuliaThTranNguyen/NoteApp/assets/49017322/c05fc3b2-de80-49d8-8a4c-d78929a42694",
+      desc: "This is a simple note-taking app. Practice codes for interviews.",
+      demo:"https://note-app-rose-three.vercel.app/",
+      tech:"Technologies: Typescript, Material UI, SCSS, Vite, Vercel"
+    },
   ];
   
