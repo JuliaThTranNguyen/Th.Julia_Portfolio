@@ -86,13 +86,13 @@
       }
 
       .smallImage {
-        width: 60px;
-        height: 60px;
-        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
         @include mobile {
-          width: 20px;
-          height: 20px;
-          margin-top: 10px;
+          width: 30px;
+          height: 30px;
+          margin-top: 5px;
         }
       }
     }
@@ -112,25 +112,24 @@
     }
 
     img {
-      width: 95%;
-      height: 92%;
+      width: 105%;
+      height: 100%;
       object-fit: cover;
       border-radius: 45%; /* Add this line to round the image */
-      transform: scale(0.6); /* Scale the image to 2x its size */
+      transform: scale(0.58); /* Scale the image to 2x its size */
       transform-origin: top left;
-      margin-left: 45px;
-      margin-top: 135px;
+      margin-top: 120px;
       align-items: end;
 
       @include mobile {
-        width: 73%;
-        height: 140%;
+        width: 76%;
+        height: 100%;
         object-fit: cover;
-        border-radius: 20%; /* Add this line to round the image */
+        border-radius: 10%; /* Add this line to round the image */
         transform: scale(0.35); /* Scale the image to 2x its size */
         transform-origin: top right;
         align-items: center;
-        margin-top: 60px;
+        margin-top: 50px;
       }
 
       

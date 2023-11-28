@@ -71,13 +71,5 @@ export const items = [
       demo:"https://ux-ui-shobie.vercel.app/",
       tech:"Technologies: Typescript, NextJs, Tailwinds CSS, Vercel"
     },
-    {
-      id: 9,
-      title: "JuJu Note App",
-      img: "https://lh3.googleusercontent.com/pw/ADCreHcViG4KM17d_2amdkh7LBzwSZXXClc1WwhWAzlo3IG02wOyMiQMCsnbmJjfQUX-NG2NahrOJU-tkin85-rgoV8gyUdLObCpusJp3Znd75YOzOgeL6xvEk_yNxpVhTEZ-IeuzaPm9aTCEM1yvmp7BRshDQSheXPSlqMck14T5ALAa2SBRZv53tLpo7iiHDzB134SgjSG1KQeBa6WtGeK7Ie0SRGmCwawZ9NHVSXSDqXPRw15YCxVfjLpSbycpYZAykqCb3-WQkGW0-2CBZG7zBdh_8Iga315_xfZXKtJ27w5fwPq_hDlu4TtsDD2y5haXXQ0O9ps2JrKSOjbCGmPf0VK3tbSY6gG8M0wcpaDavl6r9ClzFdQitB4xGwCo6-LOntbss73CTP5LNYlbLAZPJcop6WCLDEv_tV_1GNoyTbbR2DU77eGde9oFOJiQtpNMrdaXzK0gU0Cqr8adFhnxUwNQWo4HbV0sUTh8HzxFscMv9CMd8NX3h6nIphI1h1gTp85LMRgKklRD0ZM-2docv2YsNtHAUaRX8rTjZ-vH8eIIztlBHPu9sg4EI58FLM-rdBS_Y9tVGW3SsGc7oPHZmoWPdA3StHTVghhEpDRsJpLug6W_i84Jp2-8LzEiaJ3j7kiLptZeCYz_z_S9iXf5IFbV9VQM50dGw8ga7Zw5WuksX3CBnREZNmkS0ga9cyBLZS41h3WdymZ8V9Wqc6stlaAb3kMVK_GQ9YLwk6rZZFSEACnmNRyZ-wO6eM4mEfJ4R4ezeciqLtdPTbWTzV4AnvXVwzdb2bDG7A-e6t8WRgOU5AVP4kdjeesRMeibex1T2_euqtYsQPE-kqp5_2mqc53r-tGP0c0hKxa2xI_MPSxqnkkOdT_TT1elMBtwEAt4Tj9mhfQFEy5IOsRpwWZGSuF_DtGNt5DA_k7049FoA=w953-h963-s-no?authuser=0",
-      desc: "This is a simple todo app.",
-      demo:"https://note-app-8y3u.vercel.app/",
-      tech:"Technologies: Typescript, Material UI, SCSS, Vite, Vercel"
-    },
   ];
   
