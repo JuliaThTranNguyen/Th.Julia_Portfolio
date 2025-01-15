@@ -55,7 +55,7 @@ const Avatar = () => {
               A full-stack web developer
             </motion.h1>
             <motion.a
-              href="https://resume.io/r/FEj8HCF9c"
+              href="https://resume.io/r/Su1pKuFJJ"
               className="clickable"
             >
               <button className="CVLink">View My CV</button>
