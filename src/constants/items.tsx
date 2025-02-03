@@ -44,7 +44,7 @@ export const items = [
       title: "E-commercial App",
       img: "https://user-images.githubusercontent.com/49017322/279810762-2d74d466-6a2c-45a0-ba49-5862a0a625a0.png",
       desc: "This is an e-commerce app, which serves as the frontend application for the admin panel mentioned above.",
-      demo:"https://e-commerce-julia.vercel.app/",
+      demo:"https://e-commerce-neon-kappa.vercel.app/",
       tech:"Technologies: Next.Js, Google Cloud Console, TailwindCSS, Stripe Payment, Vercel"
     },
     {
