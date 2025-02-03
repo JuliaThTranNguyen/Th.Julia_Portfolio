@@ -1,5 +1,6 @@
 # Th.Julia - Thuy Hien Tran Nguyen Portfolio
 -------------------------------------------------------------------------------------------------
+
 ## [LIVE DEMO](https://th-julia-portfolio.vercel.app/)
 
 ## IDE I use for coding :bulb:
