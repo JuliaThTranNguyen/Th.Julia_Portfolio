@@ -18,6 +18,24 @@
 ### [Vercel](https://vercel.com/docs)
 - Vercel is a cloud platform that focuses on providing seamless and efficient deployment and hosting solutions for modern web applications. It is particularly popular for hosting frontend applications and static websites. Vercel supports a variety of front-end frameworks like React, Angular, Vue.js, and more. Developers can easily deploy their projects from Git repositories, enabling automatic deployments upon code changes. Vercel offers features like serverless functions, custom domains, and SSL certificates, making it a convenient choice for developers looking to deploy their applications quickly and easily. Vercel's intuitive interface and integration with popular version control systems make it a popular choice among developers for hosting and deploying web applications.
 
+### How to download and run this Vite application?
+## 1. How to download & install dependencies?
+From your desktop screen, navigate & open the CMD panel; then run this following commands:
+```
+git clone git@github.com:JuliaThTranNguyen/Th.Julia_Portfolio.git
+```
+
+Navigate to the newly downloaded directory, then run this:
+```
+npm install
+```
+
+## 2. How to run this Vite application?
+Run this same command on your CMD panel or the panel within VSCode:
+```
+npm run dev
+```
+----------------- HAPPY CODING :revolving_hearts: -----------------------
 ### Extra demo projects:
 ![Screenshot from 2023-11-01 23-44-20](https://github.com/JuliaThTranNguyen/Th.Julia_Portfolio/assets/49017322/8d6b602b-82f1-42f5-8212-e9f6512ac676)
 
