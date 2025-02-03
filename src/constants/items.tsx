@@ -52,7 +52,7 @@ export const items = [
       title: "Personal Portfolio",
       img: "https://user-images.githubusercontent.com/49017322/280490781-3bf7fbb1-1cfc-4000-b1ae-eb35e4c67358.png",
       desc: "This is a simple personal portfolio.",
-      demo:"https://th-julia-portfolio.vercel.app/",
+      demo:"https://tr-nguyen-portfolio.vercel.app/",
       tech:"Technologies: Javascript, SCSS, Vite, EmailJS, Vercel"
     },
     {
