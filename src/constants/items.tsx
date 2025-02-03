@@ -20,7 +20,7 @@ export const items = [
       title: "Shopping App - UI design",
       img: "https://user-images.githubusercontent.com/49017322/279810682-5af4b437-50f4-4c64-a161-b7c8008385a7.png",
       desc: "This is a simple UI design for an e-commerce app.",
-      demo:"https://fake-store-app-git-master-juliathtrannguyen.vercel.app/",
+      demo:"https://fake-store-gu52y3zd6-juliathtrannguyen.vercel.app/",
       tech:"Technologies: Typescript, Redux Query, Material UI, REST APIs, Vercel"
     },
     {
@@ -36,7 +36,7 @@ export const items = [
       title: "Warehouse management system - not available",
       img: "https://user-images.githubusercontent.com/49017322/279810742-108a2dba-8a53-4b37-9f42-0d23eb294b32.png",
       desc: "This is an Admin Panel for a warehouse management application.",
-      demo:"https://admin-panel-julia.vercel.app/login",
+      demo:"https://fs16-5-react-breweries-ten.vercel.app/",
       tech:"Technologies: Next.Js, MongoDB & JWT tokens, NextAuth, Google Cloud Console, Amazon S3, TailwindCSS, Vercel"
     },
     {
@@ -60,7 +60,7 @@ export const items = [
       title: "Travel Agency",
       img: "https://user-images.githubusercontent.com/49017322/282851205-ae9f431b-38c2-4e3b-9ea3-7943886c08fa.png",
       desc: "This is a simple UI/UX design for a travel agency website.",
-      demo:"https://travel-agency-git-master-juliathtrannguyens-projects.vercel.app/",
+      demo:"https://travel-agency-tr-nguyen.vercel.app/",
       tech:"Technologies: Typescript, NextJs, Tailwinds CSS, Vercel"
     },
     {
