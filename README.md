@@ -35,7 +35,12 @@ Run this same command on your CMD panel or the panel within VSCode:
 ```
 npm run dev
 ```
------------------ HAPPY CODING :revolving_hearts: -----------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+ HAPPY CODING :revolving_hearts:
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------
 ### Extra demo projects:
 ![Screenshot from 2023-11-01 23-44-20](https://github.com/JuliaThTranNguyen/Th.Julia_Portfolio/assets/49017322/8d6b602b-82f1-42f5-8212-e9f6512ac676)
 
